@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('bet-yosef.client App', () => {
+describe('bet-yosef App', () => {
   let page: AppPage;
 
   beforeEach(() => {
