@@ -13,6 +13,22 @@ html {
     height: 100%;
     color: #777;
     line-height: 1.8;
+    direction: rtl;
+}
+
+body {
+    font-weight: normal;
+    background: #f9fafb;
+    color: #4b5563;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 /* Create a Parallax Effect */
@@ -54,10 +70,28 @@ html {
     cursor: pointer;
 }
 
+.w3-bar-item.w3-button {
+    float: right;
+    color: black;
+    i {
+        padding-left: 5px;
+    }
+}
+
+.w3-quarter.w3-section {
+    float: right;
+}
+
+.w3-bar {
+    float: right;
+}
+
+.w3-bar-block .w3-bar-item {
+    text-align: right;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
-
 @media only screen and (max-device-width: 1024px) {
-
     .bgimg-1,
     .bgimg-2,
     .bgimg-3 {
