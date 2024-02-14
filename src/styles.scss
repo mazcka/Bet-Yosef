@@ -1,3 +1,5 @@
+// @import '~src/assets/כולל.JPG';
+
 body,
 h1,
 h2,
@@ -44,21 +46,21 @@ body {
 /* First image (Logo. Full height) */
 
 .bgimg-1 {
-    background-image: url('./כולל.jpg');
+    background-image: url('assets/כולל.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 
 .bgimg-2 {
-    background-image: url('./301.jpeg');
+    background-image: url('assets/301.jpeg');
     min-height: 600px;
 }
 
 /* Third image (Contact) */
 
 .bgimg-3 {
-    background-image: url('./303.jpeg');
+    background-image: url('assets/303.jpeg');
     min-height: 600px;
 }
 
